@@ -43,10 +43,5 @@ The plan's "load the CRM" step wasn't left as a slide. The cleaned D1 accounts a
 
 Python (pandas, numpy, statsmodels) for data cleaning and modelling; Excel workbooks with live formulas (blue inputs, yellow key assumptions, black formulas), recalculated and error-checked; Word memos and PowerPoint decks generated from code so every figure traces to the analysis; a free HubSpot CRM for the implementation step.
 
-## AI use
-
-This project was built with an AI assistant (Claude): drafting, analysis code, and the CRM build were AI-assisted throughout, working from a synthetic data room built for the assignment. Every figure is reproducible from the code in each deliverable's `code/` folder.
-
-—
 
 Anvesha · MBA Year 2 (PGDM), Prin. L.N. Welingkar Institute of Management Development and Research (WeSchool)
