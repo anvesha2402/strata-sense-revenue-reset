@@ -1,0 +1,22 @@
+{
+  "quarter": "Q1 FY27",
+  "snapshot": "2026-04-01",
+  "method": "Stage-weighted conversion (stage x close-date bucket), rolling 4 quarters, walk-forward bias calibration",
+  "raw_stage_weighted_cr": 10.617,
+  "calibration_factor": 0.8207,
+  "p10_cr": 6.11,
+  "p50_cr": 8.71,
+  "p90_cr": 10.74,
+  "cross_checks": {
+    "cohort_age_cr": 12.65,
+    "simulation_expected_cr": 10.85,
+    "simulation_p10_p90": [
+      8.17,
+      13.48
+    ],
+    "rep_commit_m1_cr": 9.06
+  },
+  "locked_at": "2026-09-23T11:08:13.128380Z",
+  "actuals_viewed": false,
+  "sha256": "ba5b63adaffbe366041170dd6ba1df17983e5cd0fdb9bedfeac0f622fd54b6b9"
+}
