@@ -7,7 +7,7 @@ from lib.common import AQUA, BLUE, NAVY, ORANGE, header, image, kpis, load, sour
 d = load()["d2"]
 header("Deliverable 2", "Enterprise account planning and lead generation",
        "Scored all 3,100 target accounts on expected value, set three tiers, and matched sales coverage and capacity to them.")
-kpis([("Strategic accounts", "400", "34% past win rate"), ("Scaled accounts", "1,100", "21%"), ("Low-touch accounts", "1,600", "12%"), ("FY27 capacity vs need", "₹49.4 vs ₹46.5 cr")])
+kpis([("Strategic accounts", "400", "34% past win rate"), ("Scaled accounts", "1,100", "21%"), ("Low-touch accounts", "1,600", "12%"), ("FY27 capacity", "₹49.4 cr", "need ₹46.5 cr")])
 
 t = pd.DataFrame(d["tiers"], columns=["Tier", "Accounts", "Win rate %", "Value per qualified opp (₹ lakh)", "Share of AE touches %", "Share of won ARR %", "Coverage"])
 st.subheader("Effort went where revenue wasn't")
